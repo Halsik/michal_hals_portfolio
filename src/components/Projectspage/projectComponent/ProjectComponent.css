@@ -1,0 +1,185 @@
+.project-component {
+    height: 100%;
+    width: 84%;
+   display: flex;
+}
+
+.project-images-box {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+.project-buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 22%;
+    width: 100%;
+}
+
+.project-buttons button {
+    margin: 2.5rem;
+    height: 4rem;
+    width: 10rem;
+    border: 1.5px solid white;
+    background-color: transparent;
+    font-size: 1.5rem;
+    transition-duration: 0.7s;
+    cursor: pointer;
+    animation-name: showPagePaiting;
+    animation-duration: 0.7s;
+}
+
+.project-buttons button a {
+    text-decoration: none;
+    }
+
+
+.project-buttons button:hover {
+    background-color: white;
+    color: black;
+    transform: scale(1.1);
+}
+
+.project-buttons button:hover > a {
+    color: black;
+}
+
+.project-images {
+    width: 100%;
+    height: 60%;
+    object-fit: cover;
+    display: flex;
+    border: 1.5px solid white;
+    animation-name: showPagePaiting;
+    animation-duration: 0.7s;
+}
+
+.project-pic {
+    height: 100%;
+    animation-name: showPagePaiting;
+    animation-duration: 0.7s;
+    box-shadow: 0 0 5px rgb(59, 59, 59);
+   
+}
+.project-info-box {
+    height: 100%;
+    width: 50%;
+}
+
+.project-info-header {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 15%;
+    width: 100%;
+    animation-name: showPagePaiting;
+    animation-duration: 0.7s;
+}
+
+.project-info-text {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: showPagePaiting;
+    animation-duration: 0.7s;
+}
+
+.project-info-text p {
+    text-align: center;
+    font-size: 1.4rem;
+    padding: 0 4rem 0 4rem;
+}
+
+.project-info-stack {
+    height: 15%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: showPagePaiting;
+    animation-duration: 0.7s;
+}
+
+.project-info-stack-box {
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.project-info-stack-box img {
+    height: 65px;
+}
+
+.project-next-rwd, .project-back-rwd {
+    display: none;
+}
+
+@keyframes showPagePaiting {
+    0% {opacity: 0;
+    
+transform: translateY(-25px);}
+
+    30% {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    100% {opacity: 1;
+    
+    transform: translateY(0px)}
+  }
+
+  @media only screen and (max-width: 1000px) {
+    .project-component {
+        width: 100%;
+    }
+
+    .project-images-box {
+        margin-top: 30px;
+        width: 100%;
+        
+    }
+
+    .project-info-box {
+        width: 100%;
+    }
+    .project-info-text p {
+        margin-top: 20px;
+    }
+
+    .project-info-stack h1 {
+        margin-top: 20px;
+    }
+
+    .project-info-stack-box {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .project-buttons button a {
+        font-size: 1.2rem;
+    }
+
+    .project-buttons button {
+        width: 8rem;
+        height: 3rem;
+        margin: 20px;
+    }
+
+    .project-images {
+        height: 100%;
+        width: 90%;
+    }
+
+    .project-next-rwd, .project-back-rwd {
+        display: inline;
+    }
+}

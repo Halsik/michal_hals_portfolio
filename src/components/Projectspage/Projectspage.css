@@ -1,0 +1,105 @@
+
+
+.project-page {
+    
+    height: 100%;
+    width: 100%;
+    background-color: #111111;
+}
+
+.project-header-box{
+    height: 12%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.project-header {
+    font-size: 3rem;
+}
+
+.project-box {
+    position: relative;
+    height: 85%;
+    width: 100%;
+    margin-top: 1.5rem;
+    display: flex;
+}
+
+.project-background {
+    z-index: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    opacity: 0.1;
+    object-fit: cover;
+    animation-name: showImage;
+    animation-duration: 3s;
+}
+
+.project-details {
+    display: flex;
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+}
+
+.rwd {
+    display: none;
+}
+
+.project-container {
+    height: 88%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.project-back, .project-next {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    height: 100%;
+    width: 8%;
+}
+
+.project-back {
+    padding-right: 30px;
+    justify-content: flex-end;
+}
+
+
+@media only screen and (max-width: 1000px) {
+    .project-page {
+        
+       overflow-y: auto;
+    }
+    .project-back, .project-next {
+        display: none;
+    }
+
+    .project-container {
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+    }
+
+    .project-component {
+        flex-direction: column;
+    }
+
+    .rwd {
+        display: flex;
+        width: 100%;
+        height: 10%;
+        justify-content: center;
+        align-items: center;
+        margin: 20px 0px;
+    }
+
+    .rwd img {
+        margin: 0px 50px;
+    }
+}

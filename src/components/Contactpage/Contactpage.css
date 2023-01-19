@@ -1,0 +1,122 @@
+.contact-page {
+    height: 100%;
+    width: 100%;
+    background-color: #111111;
+}
+
+.contact-header-box {
+    height: 12%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.contact-header {
+    font-size: 3rem;
+}
+
+.contact-text {
+    position: relative;
+    display: flex;
+    height: 82%;
+    width: 100%;
+}
+
+.contact-container-box {
+    display: flex;
+    margin-top: 2rem;
+    height: 88%;
+}
+
+.contact-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
+
+.contact-box {
+    height: 25%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contact-box p {
+    font-size: 1.5rem;
+    margin-top: 10px;
+}
+
+.contact-box h1 {
+    font-size: 2rem;
+}
+
+.contact-icons {
+    height: 20%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-box {
+    border-radius: 50%;
+    height: 55px;
+    width: 55px;
+    margin: 20px;
+    background-color: white;
+    cursor:pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition-duration: 0.5s;
+}
+
+.icon-box:hover {
+    box-shadow: 0 0 10px white;
+}
+
+.icon-box img {
+    height: 45px;
+}
+
+@media only screen and (max-width: 1000px) {
+
+    .contact-page {
+        overflow-y: auto;
+    }
+    .contact-container-box {
+        height: 100%;
+        display: flex;
+    }
+    .contact-container {
+        height: fit-content;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .contact-box {
+        margin: 20px;
+    }
+
+    .contact-text {
+        
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contact-box p {
+        font-size: 1.5rem;
+        margin-top: 10px;
+    }
+    
+    .contact-box h1 {
+        font-size: 2rem;
+    }
+}
