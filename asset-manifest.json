@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/michal_hals_portfolio/static/css/main.4b926b7a.css",
-    "main.js": "/michal_hals_portfolio/static/js/main.50c13234.js",
+    "main.js": "/michal_hals_portfolio/static/js/main.a6629bab.js",
     "static/media/about-background.jpeg": "/michal_hals_portfolio/static/media/about-background.39e7c4cc85a95a79df8b.jpeg",
     "static/media/projectBackground.jpeg": "/michal_hals_portfolio/static/media/projectBackground.a7f96006074830e7f170.jpeg",
     "static/media/weatherApp.png": "/michal_hals_portfolio/static/media/weatherApp.8e595b5f94359ec3c64e.png",
@@ -12,10 +12,10 @@
     "static/media/todoapp1.png": "/michal_hals_portfolio/static/media/todoapp1.37868b0789782f1972c8.png",
     "index.html": "/michal_hals_portfolio/index.html",
     "main.4b926b7a.css.map": "/michal_hals_portfolio/static/css/main.4b926b7a.css.map",
-    "main.50c13234.js.map": "/michal_hals_portfolio/static/js/main.50c13234.js.map"
+    "main.a6629bab.js.map": "/michal_hals_portfolio/static/js/main.a6629bab.js.map"
   },
   "entrypoints": [
     "static/css/main.4b926b7a.css",
-    "static/js/main.50c13234.js"
+    "static/js/main.a6629bab.js"
   ]
 }
