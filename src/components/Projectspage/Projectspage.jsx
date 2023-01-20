@@ -2,6 +2,7 @@ import React, {useState} from "react";
 import { motion } from 'framer-motion'
 import projectData from './ProjectsData.js'
 import './Projectspage.css'
+import menuBack from '../images/menu-back.png'
 import background from '../images/projectsImages/projectBackground.jpeg'
 import ProjectComponent from "./projectComponent/ProjectComponent";
 import arrorwLeft from '../images/projectsImages/arrowLeft.png'
@@ -57,7 +58,10 @@ function Projectspage() {
                     animate={{opacity: 1, transition: {duration: 1, delay: 2.2}, translateY: "0px" }}
                     exit={{opacity: 0}}
                     className="project-header">
-            Projects</motion.h1></div>
+                        
+            Projects</motion.h1>
+            </div>
+            
 
             <motion.div 
             initial={{opacity: 0, transition: {duration: 1}, translateY: "-20px" }}

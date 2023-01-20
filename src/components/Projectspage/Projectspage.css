@@ -8,6 +8,7 @@
 }
 
 .project-header-box{
+    position: relative;
     height: 12%;
     display: flex;
     align-items: flex-end;
@@ -16,6 +17,16 @@
 
 .project-header {
     font-size: 3rem;
+}
+
+.back-menu {
+    width: 8rem;
+    height: 2.5rem;
+    border: 1.5px solid white;
+    position: absolute;
+    top: 40%;
+    left: 6%;
+    padding-right: 50px;
 }
 
 .project-box {
