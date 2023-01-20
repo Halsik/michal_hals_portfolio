@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/michal_hals_portfolio/static/css/main.e8be2032.css",
-    "main.js": "/michal_hals_portfolio/static/js/main.3aef904c.js",
+    "main.css": "/michal_hals_portfolio/static/css/main.7bb6b7d6.css",
+    "main.js": "/michal_hals_portfolio/static/js/main.2f64cf05.js",
     "static/media/about-background.jpeg": "/michal_hals_portfolio/static/media/about-background.39e7c4cc85a95a79df8b.jpeg",
     "static/media/projectBackground.jpeg": "/michal_hals_portfolio/static/media/projectBackground.a7f96006074830e7f170.jpeg",
     "static/media/weatherApp.png": "/michal_hals_portfolio/static/media/weatherApp.8e595b5f94359ec3c64e.png",
@@ -11,11 +11,11 @@
     "static/media/pigGame1.png": "/michal_hals_portfolio/static/media/pigGame1.0b690162918182003044.png",
     "static/media/todoapp1.png": "/michal_hals_portfolio/static/media/todoapp1.37868b0789782f1972c8.png",
     "index.html": "/michal_hals_portfolio/index.html",
-    "main.e8be2032.css.map": "/michal_hals_portfolio/static/css/main.e8be2032.css.map",
-    "main.3aef904c.js.map": "/michal_hals_portfolio/static/js/main.3aef904c.js.map"
+    "main.7bb6b7d6.css.map": "/michal_hals_portfolio/static/css/main.7bb6b7d6.css.map",
+    "main.2f64cf05.js.map": "/michal_hals_portfolio/static/js/main.2f64cf05.js.map"
   },
   "entrypoints": [
-    "static/css/main.e8be2032.css",
-    "static/js/main.3aef904c.js"
+    "static/css/main.7bb6b7d6.css",
+    "static/js/main.2f64cf05.js"
   ]
 }
